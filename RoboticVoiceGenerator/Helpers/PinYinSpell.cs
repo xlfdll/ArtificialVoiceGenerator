@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AFVoiceGenerator
+namespace RoboticVoiceGenerator
 {
     // PinYin spelling options
     [Flags]

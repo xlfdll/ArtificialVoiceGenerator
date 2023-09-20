@@ -7,11 +7,11 @@ using Xlfdll;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle("AF Voice Generator")]
+[assembly: AssemblyTitle("Robotic Voice Generator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Xlfdll Workstation")]
-[assembly: AssemblyProduct("AF Voice Generator")]
+[assembly: AssemblyProduct("Robotic Voice Generator")]
 [assembly: AssemblyCopyright("© 2023 Xlfdll Workstation")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

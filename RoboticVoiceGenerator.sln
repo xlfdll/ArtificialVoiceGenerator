@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFVoiceGenerator", "AFVoiceGenerator\AFVoiceGenerator.csproj", "{514B06CF-8A36-42FC-90B9-A942EA759FF0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboticVoiceGenerator", "RoboticVoiceGenerator\RoboticVoiceGenerator.csproj", "{514B06CF-8A36-42FC-90B9-A942EA759FF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

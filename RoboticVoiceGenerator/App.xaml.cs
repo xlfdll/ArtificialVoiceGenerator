@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace AFVoiceGenerator
+namespace RoboticVoiceGenerator
 {
     /// <summary>
     /// App.xaml の相互作用ロジック

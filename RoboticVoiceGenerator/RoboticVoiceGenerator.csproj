@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{514B06CF-8A36-42FC-90B9-A942EA759FF0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AFVoiceGenerator</RootNamespace>
-    <AssemblyName>AFVoiceGenerator</AssemblyName>
+    <RootNamespace>RoboticVoiceGenerator</RootNamespace>
+    <AssemblyName>RoboticVoiceGenerator</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -103,7 +103,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
+    <Page Include="Views\Controls\Modules\AnimalForestTabUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -116,13 +120,19 @@
     <Compile Include="..\XDLibrary\Xlfdll.Windows.Presentation\RelayCommand.cs">
       <Link>Base\RelayCommand.cs</Link>
     </Compile>
+    <Compile Include="Views\Controls\Modules\AnimalForestTabUserControl.xaml.cs">
+      <DependentUpon>AnimalForestTabUserControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Helpers\PronounceAudioHelper.cs" />
-    <Compile Include="MainViewModel.cs" />
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Generators\AFVoiceGenerator.cs" />
+    <Compile Include="Generators\IVoiceGenerator.cs" />
+    <Compile Include="Helpers\MathHelper.cs" />
+    <Compile Include="ViewModels\AFViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
